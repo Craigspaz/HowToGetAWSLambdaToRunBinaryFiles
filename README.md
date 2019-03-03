@@ -10,7 +10,6 @@ AWS Lambda has very few libraries pre installed for you. If your binary file nee
 You can check which files a program needs on a linux box by using the ldd command.
 ```
 $ ldd <path to binary file>
-
 ```
 If you run the above command on the ssh program you should see something like the following.(This was run on an Ubuntu system)
 
